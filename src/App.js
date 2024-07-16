@@ -39,6 +39,10 @@ function App() {
                 />
                 <div className="card-content">
                   <h3 className="card-title">{character.name}</h3>
+                  <p className="card-description"></p>
+                  <div className="card-footer">
+                    <span></span>
+                  </div>
                 </div>
               </div>
             );
